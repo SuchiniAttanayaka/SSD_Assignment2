@@ -1,0 +1,49 @@
+body {
+  font-family: Arial,sans-serif;
+  margin: auto;
+  padding: 10px;
+}
+
+.box {
+  border: 0.5em solid #f5eca4;
+  display: block;
+  box-orient: vertical;
+  box-align: center;
+
+  min-width: 400px;
+  max-width: 600px;
+  height: auto;
+
+  margin: auto;
+  padding: 10px;
+}
+
+.result {
+  -webkit-box-flex: 2;
+  -moz-box-flex: 2;
+  box-flex: 2;
+}
+
+header {
+  color:#000;
+  padding:2px 5px;
+  font-size:100%;
+  margin: auto;
+  text-align: center
+}
+.login {
+  font-size: 204%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  color: #FF9800;
+  line-height: normal;
+}
+.warn {
+  color: red;
+}
+a img{
+  width: 500px;
+}
